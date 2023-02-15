@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     text-align: center;
     color:#27525A;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -26,11 +29,17 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: #5EB1BF;
+    background-color: bisque;
     
 }
 body {
     background-color: #FFFAE2;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:aquamarine;
@@ -57,17 +66,23 @@ nav a:hover{
     font-size: 30px;
 }
 .msg {
-    background-color: aquamarine;
+    background-color:bisque;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: bisque;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2 {
     color: black;
 }
 .msg p {
     color: navy;
+    padding-bottom: 15px;
+    font-size: 2em;
 }
 footer a {
     color: black;
@@ -82,7 +97,30 @@ footer a:hover {
 }
 .icon {
     width: 80px ;
+    padding-top: 10px;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+     padding-top: 5px;}  
+footer .social img  {
+     padding-top: 15px;}
+.book, .join{
+    font-size: 18px;padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.river-cards, .camping-card, .rapids-card{margin: 200px 0
+    ;}
+    .card-img {
+        border: 10px solid #d9c2a3;
+    }
+main section img {
+    box-sizing: border-box;
 }
